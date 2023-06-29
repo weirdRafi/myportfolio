@@ -407,11 +407,19 @@ box-shadow: 0 0 1rem var(--main-color);
     .projects-container{
         grid-template-columns: repeat(2, 1fr);
     }
+    
 }
 @media (max-width: 617px){
     .projects-container{
         grid-template-columns: 1fr;
     }
+    .contact form .input-box input{
+        width: 100%;
+    }
+    .contact form{
+        min-width: auto;
+    }
+    
 }
 @media (max-width: 450px){
     html{
@@ -420,6 +428,8 @@ box-shadow: 0 0 1rem var(--main-color);
     .contact form .input-box input{
         width: 100%;
     }
+    
+    
 }
 @media (max-width: 365px){
     .home-img img{
