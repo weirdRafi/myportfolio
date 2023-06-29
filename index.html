@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Of M I Rafi</title>
+    <title>Portfolio Of Mazharul</title>
     <!-- ICON LINK  -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- MAIN CSS LINK  -->
@@ -34,17 +34,17 @@
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Mazharul Islam</h1>
-            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
             <p>Driven frontend web developer skilled in crafting intuitive user interfaces. Passionate about
                 transforming designs into exceptional digital experiences.</p>
 
             <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="https://www.facebook.com/weirdrafii" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/weird_rafii/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/mazharul-islam-rafi-4b6269251/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/weirdRafi" target="_blank"<i class='bx bxl-github'></i></a>
             </div>
-            <a href="#" class="btn">Download CV</a>
+            <a href="#" class="btn" id="download-cv">Download CV</a>
         </div>
         <div class="home-img">
             <img src="images/home.png" alt="">
@@ -59,7 +59,7 @@
         </div>
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            <h3>Frontend Developer</h3>
+            <h3>Frontend Developer!</h3>
             <p>Hi, I’m Mazharul Islam. I’m a Frontend web Developer. Experiences javascript, React js. I never
                 stop until solve a problem. And love to finish any work efficiently Learning more skills to update
                 me more in future node js, express js, mongoDB & improving MERN stack development.</p>
@@ -113,8 +113,9 @@
                         It has Chef Recipe <br>
                         It Is an italyan site</p>
                         <div class="links">
-                            <a href="#"><i class='bx bxl-github'></i></a>
-                            <a href="#"><i class='bx bx-link-external'></i></a>
+                            <a href="https://github.com/weirdRafi/fooduzziclient" target="_blank"><i class='bx bxl-github'></i></a>
+                            <a href="https://github.com/weirdRafi/fooduzziserver" target="_blank"><i class='bx bxl-github'></i></a>
+                            <a href="https://chef-recipe-hunter-c9371.web.app/" target="_blank"><i class='bx bx-link-external'></i></a>
                         </div>
                 </div>
             </div>
@@ -128,8 +129,9 @@
                         This website has three categories Car <br>
                         It is a responsive site</p>
                         <div class="links">
-                            <a href="#"><i class='bx bxl-github'></i></a>
-                            <a href="#"><i class='bx bx-link-external'></i></a>
+                            <a href="https://github.com/weirdRafi/toyplanetclient" target="_blank"><i class='bx bxl-github'></i></a>
+                            <a href="https://github.com/weirdRafi/toyplanetserver" target="_blank"><i class='bx bxl-github'></i></a>
+                            <a href="https://toy-marketplace-bb34b.web.app/" target="_blank"><i class='bx bx-link-external'></i></a>
                         </div>
                 </div>
             </div>
@@ -143,8 +145,8 @@
                         You can see rechart here <br>
                         You can apply to job</p>
                     <div class="links">
-                        <a href="#"><i class='bx bxl-github'></i></a>
-                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <a href="https://github.com/weirdRafi/assignment-9" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://leafy-peony-90b122.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
             </div>
@@ -152,8 +154,42 @@
     </section>
     <!-- Project Section End -->
 
+    <!-- Contact Section  -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
 
+        <form action="https://formspree.io/f/mgejwnjo" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="number" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <!-- <input type="submit" value="Send Message" class="btn"> -->
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    <!-- Contact Section End -->
 
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Mazharul Islam | All Right Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Typed js  -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Custom js  -->
     <script src="script.js"></script>
 </body>
 
